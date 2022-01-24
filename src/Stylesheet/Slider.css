@@ -1,0 +1,254 @@
+.mySwiper{
+    background-color: #faf9f7;
+    margin-top: 48%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    width: 99vw;
+}
+.mySwiper  img{
+    width: 20%;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    margin-top: 2%;
+}
+.mySwiper h3{
+    color: #478ad0;
+    font-size: 40px;
+    line-height: 1.25;
+    font-weight: 400;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+    position: absolute;
+    left: 15%;
+    height: 10vh;
+    width: 25vw;
+}
+.mySwiper h5{
+    color: #252525;
+    font-size: 25px;
+    line-height: 1.25;
+    font-weight: 300;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    text-align: left;
+    position: absolute;
+    left: 15%;
+    margin-top:10% ;
+    width: 25vw;
+}
+.lst h5{
+    margin-top: 7%;
+}
+.lst h3{
+    width: 30vw;
+    margin-top: 4%;
+}
+/* @media screen and (max-width: 2560px){
+    .mySwiper{
+        margin-top: 10%;
+    }
+    .mySwiper img{
+        width: 29%;
+    }
+    .mySwiper h3{
+        font-size: 50px;
+        width: 30vw;
+        margin-top: 5%;
+    }
+    .mySwiper h5{
+        font-size: 45px;
+        margin-top: 10%;
+    }
+    .lst h3{
+        width: 30vw;
+        margin-top: 6%;
+    }
+} */
+@media screen and (max-width: 1600px){
+    .mySwiper{
+        margin-top: 80%;
+    }
+    .mySwiper img{
+        width: 28%;
+    }
+    .mySwiper h3{
+        font-size: 30px;
+        width: 30vw;
+    }
+    .mySwiper h5{
+        font-size: 25px;
+        margin-top: 12%;
+    }
+}
+@media screen and (max-width:1200px){
+    .mySwiper{
+        margin-top: 95%;
+    }
+    .mySwiper img{
+        width: 30%;
+    }
+    .mySwiper h3{
+        font-size: 30px;
+        width: 35vw;
+    }
+    .mySwiper h5{
+        font-size: 25px;
+        margin-top: 12%;
+    }
+}
+@media screen and (max-width:1024px){
+    .mySwiper{
+        top: 90%;
+        left: -1%;
+        width: 101vw;
+    }
+    .mySwiper h5{
+        padding-top: 1%;
+    }
+    .mySwiper img{
+        top: 10%;
+    }
+    .lst h5{
+        margin-top: 10%;
+        width: 35vw;
+    }
+    .lst h3{
+        width: 35vw;
+        margin-top: 4%;
+    }
+}
+@media screen and (max-width:960px){
+    .mySwiper{
+        margin-top: 105%;
+        height: 60vh;
+    }
+    .mySwiper img{
+        width: 35%;
+    }
+    .mySwiper h5{
+        font-size: 23px;
+        width: 30vw;
+        margin-top: 20%;
+    }
+    .mySwiper h3{
+        width: 35vw;
+    }
+}
+@media screen and (max-width:700px){
+    .mySwiper{
+        margin-top: 150%;
+    }
+    .mySwiper img{
+        width: 40%;
+        top: 20%;
+    }
+    .mySwiper h5{
+        font-size: 20px;
+        width: 36vw;
+        margin-top: 28%;
+    }
+    .mySwiper h3{
+        width: 45vw;
+        font-size: 25px;
+    }
+    .lst h5{
+        margin-top: 22%;
+    }
+    .lst h3{
+        width: 30vw;
+        margin-top: 4%;
+    }
+}
+@media screen and (max-width:500px){
+    .mySwiper{
+        margin-top: 325%;
+        width: 111vw;
+    }
+    .mySwiper img{
+        width: 40%;
+        top: 30%;
+    }
+    .mySwiper h5{
+        font-size: 20px;
+        width: 40vw;
+        margin-top: 30%;
+        left: 9%;
+    }
+    .mySwiper h3{
+        width: 55vw;
+        font-size: 20px;
+        left: 9%;
+    }
+    .lst h5{
+        margin-top: 30%;
+        width: 40vw;
+    }
+    .lst h3{
+        width: 35vw;
+        margin-top: 17%;
+    }
+    .lst img{
+        top: 30%;
+    }
+}
+@media screen and (max-width:420px){
+    .mySwiper{
+        margin-top: 355%;
+        width: 111vw;
+    }
+}
+@media screen and (max-width:395px){
+    .mySwiper{
+        margin-top: 355%;
+        width: 111vw;
+    }
+    .mySwiper h5{
+        font-size:18px;
+        width: 40vw;
+        left: 9%;
+    }
+}
+@media screen and (max-width:360px){
+    .mySwiper{
+        margin-top: 370%;
+        width: 120vw;
+    }
+    .mySwiper img{
+        width: 40%;
+        top: 30%;
+    }
+    .mySwiper h5{
+        font-size:18px;
+        width: 40vw;
+        left: 9%;
+    }
+    .mySwiper h3{
+        width: 55vw;
+        font-size: 20px;
+        left: 9%;
+    }
+    .lst h5{
+        margin-top: 30%;
+        width: 40vw;
+    }
+    .lst h3{
+        width: 35vw;
+        margin-top: 17%;
+    }
+    .lst img{
+        top: 30%;
+    }
+}

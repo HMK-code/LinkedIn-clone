@@ -1,0 +1,289 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.container{
+    width: 95vw;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header img{
+    width: 120px;
+    height: auto;
+    position: absolute;
+    left: 14.4%;
+    top: 2%;
+}
+h3{
+    justify-content: space-around;
+    position: absolute;
+    right: 25%;
+}
+h3.katıl{
+    right: 12%;
+    height: 32px;
+    width: 130px;
+    color: rgb(2, 111, 155);
+    border: 1px solid rgb(2, 111, 155);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-top: 1.2%;
+}
+h3.aç{
+    right: 20%;
+    padding-top: 5px;
+    opacity: .5;
+}
+h3.katıl:hover{
+    border: 2px double rgb(2, 111, 155);
+    background-color: rgba(2, 112, 155, 0.137);
+    cursor: pointer;
+    transition: all .2s;
+}
+h3.aç:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition: all .2s;
+}
+.main{
+    display: flex;
+    position: relative;
+    margin-left: 15%;
+    margin-top:50px;
+}
+.main .right img{
+    width: 50%;
+    height: 120%;
+    right: 5%;
+    position: absolute;
+    top: 10%;
+    display: flex;
+}
+.main .left .inputs input{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 25vw;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 400;
+    padding: 10px;
+}
+input::-webkit-input-placeholder {
+    color: black;
+    opacity: 0.5; 
+    font-size: 1rem;
+}
+.main .left .pad{
+    margin-bottom: 10px;
+}
+.main .left h5{
+    color: rgba(143, 88, 73, 1);
+    font-size: 2.8rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 1.2;
+}
+.main .left{
+    top: 0%;
+}
+.main .oturum{
+    border:0;
+    background-color: #2977c9;
+    color: #fff;
+    cursor: pointer;
+    height: 56px;
+    width: 90%;
+    border-radius:28px;
+    line-height: normal;
+    font-weight: normal;
+}
+.main .oturum:hover{
+    background-color: #0b53a0;
+}
+.main h6{
+    opacity: .5;
+    font-size: .9rem;
+    cursor: pointer;
+}
+.main h6:hover{
+    color: #2977c9;
+    text-decoration: underline;
+    opacity: 1;
+}
+.main .pass{
+    position: absolute;
+    top: 68%;
+    left: 22%;
+    border: 0;
+    opacity: .8;
+    cursor: pointer;
+    font-size: .9rem;
+    z-index: 1;
+    background-color: rgba(189, 189, 189, 0.459);
+    flex: 0;
+    left: 18%;
+}
+/* @media screen and (max-width: 2560px){
+    .main .right img{
+        width: 50%;
+        height: 120%;
+        right: 15%;
+        position: absolute;
+        top: 10%;
+        display: flex;
+    }
+    .main .oturum{
+        border:0;
+        background-color: #2977c9;
+        color: #fff;
+        cursor: pointer;
+        height: 56px;
+        width: 50%;
+        border-radius:28px;
+        line-height: normal;
+        font-weight: normal;
+    }
+    .pad{
+        width: 80vw;
+    }
+    h3.katıl{
+        right: 32%;
+        width: calc(max-content + 15px);
+        top: -.5%;
+        height: 32px;
+        color: rgb(2, 111, 155);
+        border: 1px solid rgb(2, 111, 155);
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+        font-size: 1rem;
+    }
+    h3{
+        justify-content: space-around;
+        position: absolute;
+        right: 55%;
+    }
+    .container{
+        width: 95vw;
+        height: 100vh;
+    }
+    .header{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .header img{
+        width: 190px;
+        height: auto;
+        position: absolute;
+        left: 14.4%;
+        top: 2%;
+    }
+      h3.aç{
+          right: 40%;
+          width: max-content;
+      }
+      .main .pass{
+          position: initial;
+          top: 68%;
+          left: 62%;
+          border: 0;
+          opacity: .8;
+          cursor: pointer;
+          font-size: 1rem;
+          border: 1px solid ;
+      }
+      .main{
+          margin-left: 5%;
+      }
+      .container .header img{
+          margin-left: -9.5%;
+      }
+} */
+@media screen and (max-width: 1600px) {
+    .main .right img {
+      display: flex;
+      top: 105%;
+      width: 80%;
+      height: 80%;
+      position: absolute;
+      left: 9%;
+      flex-direction: column;
+      padding-bottom: 160px;
+    }
+    h3.katıl {
+        width: 15%;
+        font-size: small;
+        right: 8%;
+    }
+    h3.aç{
+        font-size: small;
+        padding-right:60px ;
+        padding-top: 8px;
+    }
+    .main .left .inputs input{
+        width: 90vw;
+    }
+    .main .pass{
+        position: initial;
+        top: 68%;
+        left: 62%;
+        border: 0;
+        opacity: .8;
+        cursor: pointer;
+        font-size: 1rem;
+        border: 1px solid ;
+    }
+    .main{
+        margin-left: 5%;
+    }
+    .container .header img{
+        margin-left: -9%;
+    }
+}
+@media screen and (max-width: 500px){
+    .main .right img {
+        display: flex;
+        top: 100%;
+        position: absolute;
+        flex-direction: column;
+        left: 5%;
+        z-index: -5;
+      }
+      .container{
+          width: 120vw;
+      }
+      .main{
+          left: 0;
+          position: absolute;
+          margin-top: 0%;
+      }
+      .main .oturum{
+          margin-top: -20%;
+          width: 100%;          
+      }
+      .header img{
+          width: 22%;
+          top: 2%;
+          left: 15%;
+      }
+      .pad{
+          margin-top: -15%;
+      }
+      .main .left .inputs input{
+          width: 90%;
+      }
+      .katıl {
+          top: 1%;
+      }
+}

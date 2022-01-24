@@ -1,0 +1,75 @@
+.f-main{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #faf9f7;
+}
+.f-img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.f-f{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgba(0, 0, 0, 0.5);
+}
+.f-main li {
+    list-style: none;
+    text-align: left;
+    display: list-item;
+    color: rgba(0, 0, 0, 0.7);
+    transition: all .2s;
+}
+.f-main h1{
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+.f-main ul{
+    box-sizing: border-box;
+    line-height: 1.5;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.f-main li:hover{
+    color: rgba(41, 119, 201,1);
+    text-decoration: underline;
+    opacity: 1;
+    cursor: pointer;
+}
+@media screen and (max-width:700px){
+    .f-main{
+        flex-direction: column;
+        margin-top: -105%;
+        display: flex;
+        margin-left: 5%;
+    }
+    .f-img{
+        margin-left: -80%;
+    }
+    .f-genel{
+        margin-left: -85%;
+    }
+    .f-göz{
+        margin-left: -80%;
+    }
+    .f-iş{
+        margin-left: -82%;
+    }
+    .f-dizin{
+        margin-left: -85%;
+    }
+}
+@media screen and (max-width:420px){
+    .f-main{
+        margin-top: -130%;
+    }
+}
